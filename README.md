@@ -1,0 +1,2 @@
+Repositório criado para a realização do Teste para vaga de Frontend - Chuva.
+Será feita a implentação do protótipo: https://www.figma.com/proto/0D27YdXU8ibf0AhsBC2OEm/Chuva---Exerc%C3%ADcio-Frontend?node-id=1%3A123&scaling=min-zoom
