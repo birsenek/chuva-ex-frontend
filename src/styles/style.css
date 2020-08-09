@@ -14,3 +14,24 @@ header h3 {
     font-size: 14px;
     line-height: 16px;
 }
+
+aside img {
+    border-radius: 50%;
+}
+#login {
+    box-sizing: border-box;
+    margin: 17px 36px 17px 22px;
+    display: flex;
+}
+
+button#language {
+    box-sizing: border-box;
+    position: relative;
+    left: 141px;
+    margin: 17px 0px;
+    width: 97px;
+    height: 34px;
+    background-color: transparent;
+    border: solid #cccccc;
+    border-radius: 3px;
+}
