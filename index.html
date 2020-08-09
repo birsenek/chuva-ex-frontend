@@ -3,33 +3,118 @@
 <head>
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SLACA 2019</title>
 </head>
 <body>
-    <header>
+    <!-- Cabeçalho -->
+    <header class="page-title">
         <div id="info">
             <h3>Anais do Simpósio Latino Americano de Ciências de Alimentos</h2>
             <h1>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </h1>
             <h2>ISSN: 1234-5678</h2>
         </div>
-        <button id="language"><i class="fas fa-globe"></i> PT, BR <i class="fas fa-caret-down"></i></button>
-        <aside id="login">
-            <div id='greetings'>
-                <p>Bem vindo!</p>
+        <ul id="greetings">
+            <li><button id="language"><i class="fas fa-globe"></i> PT, BR <i class="fas fa-caret-down"></i></button> </li>
+            <li><p>Bem vindo!</p>
                 <p>alguem12@galascience.com</p>
-            </div>
-                <img src="./src/images/profile-pic-sm.jpg" alt="Profile picture">
-        </aside>
+            </li>
+            <li><img id="profile-picture" src="./src/images/profile-pic.jpg" alt="Profile picture"></li>
+        </div>
     </header>
+
+    <nav id="sidebar">
+        <header id="nav-title">
+            SLACA 2019
+        </header>
+        <div class="logo" alt="Logo"></div>
+        <ul id="menu">
+           <div class="border-wrap"><li><a href="#">Apresentação</a></li></div> 
+           <div class="border-wrap"><li><a href="#">Comitês</a></li></div>
+           <div class="border-wrap"><li><a href="#">Autores</a></li></div>
+           <div class="border-wrap"><li><a href="#">Eixos temáticos</a></li></div>
+           <div class="border-wrap"><li><a href="#">Trabalhos</a></li></div>
+           <div class="border-wrap"><li><a href="#">Contato</a></li></div>
+        </ul>
+    </nav>
+
     <div id="content">
-        <h1>Análise sensorial de preparaç~çoes funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h1>
-        <video src=""></video>
+
+        <!-- Video Section -->
+        <section id="video-area">
+            <section id="video-player">
+                <h1 id="video-title">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h1>
+                <div id="video-overlay">
+                    <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h2>
+                    <p>Beatriz Chistiane Melo</p>
+                    <p>FCA / Universidade Estadual de Campinas</p>
+                    <img id="video-img" src="./src/images/video-img.png" alt="Foto de um senhor">
+                    <img src="./src/images/video-bg.png" alt="Background do video, praia com ondas ao por do sol">
+                </div>
+            </section>
+
+            <!-- Lateral Buttons -->
+            <aside id="papper-buttons">
+                <ul>
+                    <li><button>Donwload</button></li>
+                    <li><button>StarImg</button></li>
+                    <li><button>doi</button></li>
+                    <li>Como citar esse trabalho?</li>
+                </ul>
+
+                <!-- Details Card -->
+                <div id="detalhes-card">
+                    <header class="card-title">
+                        Detalhes
+                    </header>
+                    <div class="card-content">
+                        <ul class="event-description">
+                            <li>Tipo de Apresentação: <span>Pôster</span></li>
+                            <li>Eixo temático: <span>Alimentação e saúde (AS)</span></li>
+                            <li>Palavras-chave: <span>Alimentos funcionais, alimentação escolar.</span></li>
+                        </ul>
+                        <ul class="event-authors">
+                            <li><span>Autores:</span></li>
+                            <li>Galileo Galilei<span>1</span></li>
+                            <li>Berta Lange de Morretes<span>2</span></li>
+                            <li>Isaac Newton<span>3</span></li>
+                            <li>Cesar Lattes<span>1</span></li>
+                            <li>Stephen Hawking<span>4</span></li>
+                        </ul>
+                        <ul class="references">
+                            <li><span>1</span>Universidade Estadual de Campinas</li>
+                            <li><span>2</span>Universidade de São Paulo</li>
+                            <li><span>3</span>Instituto Nacional de Pesquisas Espaciais</li>
+                            <li><span>4</span>Universidade Federal do Rio de Janeiro</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </aside>
+        </section>
+
+        <!-- Abstract -->
+        <section id="abstract-card">
+            <header class="card-title">
+                Resumo
+            </header>
+            <p class="card-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant... ver mais
+            </p>
+        </section>
+
+        <!-- Discussions -->
+        <section class="discussions">
+            <header class="card-title">
+                Discussões
+            </header>
+        </section>
     </div>
     <footer>
-
+        Galoá
     </footer>
 </body>
 </html>
