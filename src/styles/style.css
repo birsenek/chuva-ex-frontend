@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #FDF1EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
