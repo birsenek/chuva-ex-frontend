@@ -65,13 +65,51 @@ body {
     border-image-slice: 1;
 }
 
-/* Header ang page top */
+/* Cabeçalho */
 
 header.page-title {
     background-color: #FDF1EB;
     display: flex;
     justify-content: space-between;
     margin-left: 220px;
+    /* height: 68px; */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+#info {
+    box-sizing: border-box;
+    margin-left: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#info h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#info h1 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#info h2 {
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
 }
 
 /* language button and login */
@@ -81,28 +119,82 @@ ul#greetings {
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 0;
     padding: 0;
+    margin-right: 29px;
 }
 
-#greetings li {
-    margin: 11px;
-}
-
-#profile-picture {
-    border-radius: 50%;
-    width: 48px;
-    height: 30px;
-    align-self: center;
+#greetings p{
+    margin: 0;
 }
 
 button#language {
     box-sizing: border-box;
-    margin: 17px 0px;
+    margin: 17px 22px;
     width: 97px;
     height: 34px;
     background-color: transparent;
-    border: solid #cccccc;
+    border: 1px solid #cccccc;
     border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#welcome {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+#email {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 30.3px;
+    height: 30.63px;
+    background-image: url('/src/images/profile-pic.jpg');
+    background-size: cover;
+    margin-left: 8.85px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#notifications {
+    background-color:#F85959;
+    border-radius: 10px;
+    margin-top: -2px;
+    margin-right: -2px;
+    height: 12px;
+    width: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 /* content div */
