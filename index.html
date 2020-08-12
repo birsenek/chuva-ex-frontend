@@ -73,37 +73,50 @@
             </section>
             <!-- Lateral Buttons -->
             <aside id="paper-info">
-                <ul>
-                    <li><button>Donwload</button></li>
-                    <li><button>StarImg</button></li>
-                    <li><button>doi</button></li>
-                    <li>Como citar esse trabalho?</li>
+                <ul id="paper-buttons">
+                    <li>
+                        <button class="download-button">
+                            <i class="fas fa-download"></i>
+                            <div class="button-text">Download</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="star-button">
+                            <i class="fas fa-star"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="doi-button">
+                            <div id="doi-img"></div>
+                        </button>
+                    </li>
+                    <li id="citacao">Como citar esse trabalho?</li>
                 </ul>
 
                 <!-- Details Card -->
                 <div id="detalhes-card">
                     <header class="card-title">
-                        Detalhes
+                        <span>Detalhes</span>
                     </header>
                     <div class="card-content">
                         <ul class="event-description">
-                            <li>Tipo de Apresentação: <span>Pôster</span></li>
-                            <li>Eixo temático: <span>Alimentação e saúde (AS)</span></li>
-                            <li>Palavras-chave: <span>Alimentos funcionais, alimentação escolar.</span></li>
+                            <li>Tipo de Apresentação: <span class="detail-bold">Pôster</span></li>
+                            <li>Eixo temático: <span class="detail-bold">Alimentação e saúde (AS)</span></li>
+                            <li>Palavras-chave: <span class="detail-bold">Alimentos funcionais, alimentação escolar.</span></li>
                         </ul>
                         <ul class="event-authors">
-                            <li><span>Autores:</span></li>
-                            <li>Galileo Galilei<span>1</span></li>
-                            <li>Berta Lange de Morretes<span>2</span></li>
-                            <li>Isaac Newton<span>3</span></li>
-                            <li>Cesar Lattes<span>1</span></li>
-                            <li>Stephen Hawking<span>4</span></li>
+                            <li><span class="detail-bold">Autores:</span></li>
+                            <li>Galileo Galilei<span class="superscript">1</span></li>
+                            <li>Berta Lange de Morretes<span class="superscript">2</span></li>
+                            <li>Isaac Newton<span class="superscript">3</span></li>
+                            <li>Cesar Lattes<span class="superscript">1</span></li>
+                            <li>Stephen Hawking<span class="superscript">4</span></li>
                         </ul>
                         <ul class="references">
-                            <li><span>1</span>Universidade Estadual de Campinas</li>
-                            <li><span>2</span>Universidade de São Paulo</li>
-                            <li><span>3</span>Instituto Nacional de Pesquisas Espaciais</li>
-                            <li><span>4</span>Universidade Federal do Rio de Janeiro</li>
+                            <li><span class="superscript">1</span>Universidade Estadual de Campinas</li>
+                            <li><span class="superscript">2</span>Universidade de São Paulo</li>
+                            <li><span class="superscript">3</span>Instituto Nacional de Pesquisas Espaciais</li>
+                            <li><span class="superscript">4</span>Universidade Federal do Rio de Janeiro</li>
                         </ul>
                     </div>
                 </div>
@@ -128,9 +141,9 @@
                 Discussões
             </header>
         </section>
+        <footer>
+            Galoá
+        </footer>
     </div>
-    <footer>
-        Galoá
-    </footer>
 </body>
 </html>
