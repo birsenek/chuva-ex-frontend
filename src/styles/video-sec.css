@@ -1,0 +1,113 @@
+/* video section */
+
+section#video-area {
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px 0 30px 43px;
+}
+
+section#video-player {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 783px;
+}
+
+#video-title {
+    margin: 0 30px 19px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    max-width: 786px;
+    color: #ED7839;
+}
+
+.video-overlay {
+    display: flex;
+    flex-direction: column;
+    width: 783px;
+}
+
+#video-background {
+    position: relative;
+    background: url('/src/images/video-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -2px -4px;
+    width: 784px;
+    height: 439px;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+#video-layer {
+    position: absolute;
+    border-radius: 3px; 
+    background:rgba(141, 53, 6, 0.5);
+    width: 99.7%;
+    height: 100%;
+}
+
+.video-overlay h2{
+    position: absolute;
+    margin: 35px 17px 0 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    max-width: 734px;
+    z-index: 10;
+}
+
+.video-author {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 300px 0 0 35px;
+}
+
+.video-author p {
+    margin: 0 0 5px 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 1px;
+}
+
+p#university { 
+    margin: 0 0 5px 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+#video-img {
+    top: 320px;
+    left: 40px;
+    background-image: url('/src/images/video-img.png');
+    background-position-x: -40px;
+    background-position-y: -20px;
+    background-size: 160px;
+    border-radius: 50%;
+    width: 84px;
+    height: 86px;
+    box-sizing: border-box;
+    border: 1px solid #ED7839;
+    background-clip: content-box;
+    padding: 4.57px;
+}

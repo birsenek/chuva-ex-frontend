@@ -1,0 +1,45 @@
+/* Cabeçalho */
+
+header.page-title {
+    margin: 0;
+    background-color: #FDF1EB;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+#info {
+    box-sizing: border-box;
+    margin-left: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#info h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#info h1 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#info h2 {
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
